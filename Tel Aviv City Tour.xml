@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>City Tour Tel Aviv</name>
+    <description><![CDATA[Experience a panoramic tour of Tour Aviv-Jaffa in an open-air tourist bus. Learn the history of the White City and visit Tel Aviv's most important cultural sites and tourist attractions. <br><br>Below, you'll find all of the stops of the tour, as well as a detailed bus schedule. <br><br>Please note that due to traffic, arrival times may be delayed.]]></description>
+    <Style id="icon-161-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/161-grn-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-161-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/161-grn-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-161">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-161-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-161-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-167-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/167-red-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-167-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/167-red-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-167">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-167-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-167-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-25-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/25-bus.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-25-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/25-bus.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-25">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-25-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-25-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Reading Terminal - Point of Departure</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday <br>09:00, 11:00, 12:00, 13:00, 14:00, 15:00 and 16:00<br>Friday<br>09:00, 11:00, 12:00, 13:00 and 14:00]]></description>
+        <styleUrl>#icon-161</styleUrl>
+        <Point>
+          <coordinates>
+            34.778831,32.098845,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>311 Hayarkon Street - Tel Aviv Port</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>09:25, 11:25, 12:25, 13:25, 14:25, 15:25 and 16:25<br>Friday<br>09:25, 11:25, 12:25, 13:25 and 14:25<br><br><br>  (http://ticketapp2.ibooking.com/book.asp?id_prov=3302&lng=english&route=629+14684&id_affiliate=1248)]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.774475,32.095918,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Opposite 284 Hayarkon St (Grand Beach Hotel)</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday <br>09:00, 11:00, 12:00, 13:00, 14:00, 15:00 and 16:00<br>Friday<br>09:00, 11:00, 12:00, 13:00 and 14:00]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.774303,32.094937,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Opposite 194 Hayarkon St - (Hilton Hotel)</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday <br>09:05, 11:05, 12:05, 13:05, 14:05, 15:05 and 16:05<br>Friday<br>09:05, 11:05, 12:05, 13:05 and 14:05]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.771299,32.088138,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>134 Hayarkon St - Sheraton Hotel</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday <br>09:06, 11:06, 12:06, 13:06, 14:06, 15:06 and 16:06<br>Friday<br>09:06, 11:06, 12:06, 13:06 and 14:06]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.768682,32.082556,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Opposite the David Intercontinental Hotel</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>09:12, 11:12, 12:12, 13:12, 14:12, 15:12 and 16:12<br>Friday<br>09:12, 11:12, 12:12, 13:12 and 14:12]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.762523,32.065865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Goldman St - Etsel Museum </name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>09:14, 11:14, 12:14, 13:14, 14:14, 15:14 and 16:14<br>Friday<br>09:14 11:14, 12:14, 13:14 and 14:14]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.759337,32.059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alladin Restaurant - Old Yafo</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>09:18, 11:18, 12:18, 13:18, 14:18, 15:18 and 16:18<br>Friday<br>09:18, 11:18, 12:18, 13:18 and 14:18]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.751816,32.054281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Clock Square - facing north</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>09:21, 11:21, 12:21, 13:21, 14:21, 15:21 and 16:21<br>Friday<br>09:21, 11:21, 12:21, 13:21 and 14:21]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.756408,32.05509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Opposite Hamered 27 - Neve Tsedek</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>09:25, 11:25, 12:25, 13:25, 14:25, 15:25 and 16:25<br>Friday<br>09:25, 11:25, 12:25, 13:25 and 14:25  (http://ticketapp2.ibooking.com/book.asp?id_prov=3302&lng=english&route=629+14684&id_affiliate=1248)]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.763768,32.063401,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elchanan Street - Carmel Market</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>09:59, 11:59, 12:49, 13:59, 14:59, 15:59 and 16:59<br>Friday<br>09:59, 11:59, 12:59, 13:59 and 14:59]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.76527,32.065501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>20 Achad Haam Street</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>09:32, 11:32, 12:32, 13:32, 14:32, 15:32 and 16:32<br>Friday<br>09:32, 11:32, 12:32, 13:32 and 14:32]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.773295,32.064319,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>28 RothschildBoulevard - corner</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>09:36, 11:36, 12:36, 13:36, 14:36, 15:36 and 16:36<br>Friday<br>09:36 11:36, 12:36, 13:36 and 14:36]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.772474,32.063219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>46 Rothschild Boulevard</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>09:38, 11:38, 12:38, 13:38, 14:38, 15:38 and 16:38<br>Friday<br>09:38, 11:38, 12:38, 13:38 and 14:38]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.774636,32.063865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>108 Rothschild Boulevard - Sheinkin St.</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>09:41, 11:41, 12:41, 13:41, 14:41, 15:41 and 16:41<br>Friday<br>09:41, 11:41, 12:41, 13:41 and 14:41]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.778337,32.068447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tarsat Blvd 2 - Habima Theatre</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>09:45, 11:45, 12:45, 13:45, 14:45, 15:45 and 16:45<br>Friday<br>09:45, 11:45, 12:45, 13:45 and 14:45]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.778826,32.073275,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>50 Dizengoff Street - Dizengoff Shopping Centre</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>09:45, 11:45, 12:45, 13:45, 14:45, 15:45 and 16:45<br>Friday<br>09:45, 11:45, 12:45, 13:45 and 14:45]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.775296,32.075343,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>100 Dizzengoff Street</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>09:47, 11:47, 12:47, 13:47, 14:47, 15:47 and 16:47<br>Friday<br>09:47, 11:47, 12:47, 13:47 and 14:47]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.774003,32.079147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>71 Ibn Gvirol Street - Rabin Square</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>09:52, 11:52, 12:52, 13:52, 14:52, 15:52 and 16:52<br>Friday<br>09:52, 11:52, 12:52, 13:52 and 14:52]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.781106,32.082456,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Opposite Tel Aviv Museum of Art</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>09:59, 11:59, 12:49, 13:59, 14:59, 15:59 and 16:59<br>Friday<br>09:59, 11:59, 12:59, 13:59 and 14:59]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.786191,32.076011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Begin Road - Azrieli Towers</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>10:37, 12:37, 13:37, 14:37, 15:37, 16:37 and 17:37<br>Friday<br>10:37, 12:37, 13:37, 14:37 and 15:37]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.791126,32.074538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>14 Hei be-Iyar St - Hamedina Square</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>10:11, 12:11, 13:11, 14:11, 15:11, 16:11 and 17:11<br>Friday<br>10:11, 12:11, 13:11, 14:11 and 15:11]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.78883,32.08562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>58 Yehuda HaMaccabi Street</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>10:16, 12:16, 13:16, 14:16, 15:16, 16:16 and 17:16<br>Friday<br>10:16, 12:16, 13:16, 14:16 and 15:16]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.792923,32.094096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>12 Levanon Street - Eretz Israel Museum</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>10:22, 12:22, 13:22, 14:22, 15:22, 16:22 and 17:22<br>Friday<br>10:22, 12:22, 13:22, 14:22 and 15:22]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.797703,32.103925,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>24 Levanon Street - The Palmach Museum</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>10:23, 12:23, 13:23, 14:23, 15:23, 16:23 and 17:23<br>Friday<br>10:23, 12:23, 13:23, 14:23 and 15:23]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.799076,32.104607,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Levanon / Einstein Street - University Tel Aviv</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>10:24, 12:24, 13:24, 14:24, 15:24, 16:24 and 17:24<br>Friday<br>10:24, 12:24, 13:24, 14:24 and 15:24]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.801608,32.11314,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Klausner Street - Museum of Jewish Diaspora</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>10:26, 12:26, 13:26, 14:26, 15:26, 16:26 and 17:26<br>Friday<br>10:26, 12:26, 13:26, 14:26 and 15:26]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.807413,32.113931,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tel Aviv University - West train station</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>10:30, 12:30, 13:30, 14:30, 15:30, 16:30 and 17:30<br>Friday<br>10:30, 12:30, 13:30, 14:30 and 15:30]]></description>
+        <styleUrl>#icon-25</styleUrl>
+        <Point>
+          <coordinates>
+            34.8037,32.103789,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Reading Station - Final station</name>
+        <description><![CDATA[Time Schedule<br>Sunday - Thursday<br>10:37, 12:37, 13:37, 14:37, 15:37, 16:37 and 17:37<br>Friday<br>10:37, 12:37, 13:37, 14:37 and 15:37]]></description>
+        <styleUrl>#icon-167</styleUrl>
+        <Point>
+          <coordinates>
+            34.77896,32.099427,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

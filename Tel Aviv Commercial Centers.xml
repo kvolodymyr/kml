@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tel Aviv - Commercial Centers</name>
+    <description><![CDATA[For more details about Tel-Aviv Visit:<br>http://www.langeasy.com/hebrew7/tlv.html<br>]]></description>
+    <Style id="icon-123-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-123-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-123">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-123-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-123-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-61-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-61-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-61">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-61-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-61-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5000-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-5000-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Dizengoff Center</name>
+        <description>A big mall, in the center of Tel-Aviv</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.77529,32.074793,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Azrieli Mall</name>
+        <description><![CDATA[At the base of the very tall Azrieli towers<br>(this is a big mall)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.791856,32.07392,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jaffa flea market</name>
+        <description>On Fridays</description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.756343,32.053954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arts and Crafts Bazaar</name>
+        <description><![CDATA[On Nahalat Binyamin street<br>Tuesdays and Fridays]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.770141,32.068993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gan Hair Mall</name>
+        <description>A medium sized mall, near the municipality building</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.780977,32.082102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Acarmel market</name>
+        <description>Food and cloth market</description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.769408,32.069102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tel-Aviv port</name>
+        <description>Entertainment area with some shops</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            34.775492,32.100899,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Atahana Entertainment area</name>
+        <description>Entertainment area with some shops</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            34.761878,32.06081,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarona Entertainment area</name>
+        <description>Entertainment area with some shops</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            34.786576,32.073211,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kikar Amedina</name>
+        <description>Little shops with exclusive products</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            34.789654,32.086792,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Line 2</name>
+        <styleUrl>#line-DB4436-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            34.77597,32.097118,0
+            34.776571,32.094209,0
+            34.775756,32.089374,0
+            34.774383,32.084938,0
+            34.773953,32.081593,0
+            34.773996,32.078902,0
+            34.774554,32.076829,0
+            34.775584,32.073993,0
+            34.773953,32.072065,0
+            34.770906,32.069956,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 3</name>
+        <styleUrl>#line-DB4436-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            34.76885,32.072702,0
+            34.770545,32.069647,0
+            34.771682,32.066374,0
+            34.772562,32.064447,0
+            34.773034,32.063392,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 4</name>
+        <styleUrl>#line-DB4436-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            34.781721,32.075266,0
+            34.781292,32.080793,0
+            34.781549,32.084538,0
+            34.782451,32.087992,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Ayalon mall</name>
+        <description>Ramat-Gan city</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.826701,32.09989,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ramat-Aviv mall</name>
+        <description>At Ramat-Aviv city (suburb of Tel-Aviv)</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.79535,32.112041,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gold Mall </name>
+        <description>Rishon Letzion city (southern suburb of Tel_Aviv)</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.774409,31.990324,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Jaffa galleries</name>
+        <description>Small Galleries on the hill of old Jaffa</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            34.752889,32.054426,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TLV fashion mall</name>
+        <description>Medium size mall. Was opened in 2017</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.783659,32.0690198,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shabazi street</name>
+        <description>Neve Tsedek neighborhood</description>
+        <styleUrl>#line-DB4436-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            34.7622871,32.0607914,0
+            34.766407,32.0626827,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

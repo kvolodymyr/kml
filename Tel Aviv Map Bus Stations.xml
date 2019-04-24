@@ -1,0 +1,2711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tel Aviv Map</name>
+    <description/>
+    <Style id="icon-157-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/157-yellow-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-157-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/157-yellow-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-157">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-157-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-157-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-169-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/169-ltblue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-169-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/169-ltblue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-169">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-169-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-169-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-169-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/169-ltblue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-169-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/169-ltblue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-169-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-169-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-169-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-61-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-61-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-61">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-61-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-61-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-61-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-61-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-61-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-61-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-61-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Tel Baruch Beach</name>
+        <description>Tel Baruch Beach (http://www.cityguide.co.il/tel-aviv-areas/west/tel-aviv-beaches/hatsuk-beach-and-tel-baruch-beach/)</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            34.7822,32.121254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Frishman Beach</name>
+        <description>Frishman Beach (http://www.cityguide.co.il/tel-aviv-areas/west/tel-aviv-beaches/frishman-beach/)</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            34.766792,32.080173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gordon Beach</name>
+        <description>Gordon Beach (http://www.cityguide.co.il/tel-aviv-areas/west/tel-aviv-beaches/gordon-beach/)</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            34.767502,32.08321,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Metzitzim Beach</name>
+        <description>Metzitzim Beach (http://www.cityguide.co.il/tel-aviv-areas/west/tel-aviv-beaches/metzitzim-beach/)</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            34.771172,32.093929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hilton Beach</name>
+        <description>Hilton Beach (http://www.cityguide.co.il/tel-aviv-areas/west/tel-aviv-beaches/hilton-beach/)</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            34.769604,32.090328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nordau Beach</name>
+        <description>Nordau Beach (http://www.cityguide.co.il/tel-aviv-areas/west/tel-aviv-beaches/nordau-beach/)</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            34.770752,32.092854,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bugrashov Beach</name>
+        <description>Bugrashov Beach (http://www.cityguide.co.il/tel-aviv-areas/west/tel-aviv-beaches/bugrashov-beach/)</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            34.766129,32.078339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jerusalem Beach</name>
+        <description>Jerusalem Beach (http://www.cityguide.co.il/tel-aviv-areas/west/tel-aviv-beaches/jerusalem-beach/)</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            34.764549,32.073956,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Banana Beach</name>
+        <description>Banana Beach (http://www.cityguide.co.il/tel-aviv-areas/west/tel-aviv-beaches/banana-beach/)</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            34.763466,32.071358,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Drummers Beach</name>
+        <description>Drummers Beach (http://www.cityguide.co.il/tel-aviv-areas/west/tel-aviv-beaches/drummers-beach/)</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            34.762943,32.069309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alma Beach</name>
+        <description>Alma Beach (http://www.cityguide.co.il/tel-aviv-areas/west/tel-aviv-beaches/alma-beach/)</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            34.757202,32.057762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Charles Clore Beach</name>
+        <description>Charles Clore Beach (http://www.cityguide.co.il/tel-aviv-areas/west/tel-aviv-beaches/charles-clore-beach/)</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            34.759174,32.060829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Givat Aliya Beach</name>
+        <description>Givat Aliya Beach (http://www.cityguide.co.il/tel-aviv-areas/west/tel-aviv-beaches/givat-aliya-beach/)</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            34.745216,32.037949,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boya</name>
+        <description>Tel Aviv Port restaurants  (http://www.cityguide.co.il/tel-aviv-areas/west/the-port/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.774227,32.100445,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>North Abraxas</name>
+        <description>Rothschild Blvd Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/center/rothschild-blvd/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.771938,32.062347,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bellini</name>
+        <description>Neve Tzedek Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/south/neve-tsedek/dining-cafe-and-nightlife/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.764278,32.06041,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ali Karavan</name>
+        <description>Jaffa Restaurants (http://www.cityguide.co.il/tel-aviv-areas/south/jaffa/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.750782,32.05022,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cafe Noir</name>
+        <description>Rothschild Blvd Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/center/rothschild-blvd/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.775799,32.06554,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manta Ray</name>
+        <description>Tel Aviv Beach restaurants  (http://www.cityguide.co.il/tel-aviv-areas/west/tel-aviv-beaches/dining/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.762962,32.064911,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Catit</name>
+        <styleUrl>#icon-169-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.768803,32.061661,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dallal</name>
+        <description>Neve Tzedek Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/south/neve-tsedek/dining-cafe-and-nightlife/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.763355,32.061172,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fu Sushi</name>
+        <description>The Old North restaurants (http://www.cityguide.co.il/tel-aviv-areas/north/the-old-north/dining/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.776367,32.094826,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Giraffe</name>
+        <description>Dizengoff Square Restaurants (http://www.cityguide.co.il/tel-aviv-areas/center/dizengoff-square-area/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.781288,32.077057,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Giraffe</name>
+        <styleUrl>#icon-169-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.834698,32.10651,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hazaken Vehayam</name>
+        <description>Jaffa Restaurants (http://www.cityguide.co.il/tel-aviv-areas/south/jaffa/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.747726,32.043159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>House Three</name>
+        <description>Jaffa Restaurants (http://www.cityguide.co.il/tel-aviv-areas/south/jaffa/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.754871,32.053654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kimmel</name>
+        <description>Neve Tzedek Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/south/neve-tsedek/dining-cafe-and-nightlife/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.76897,32.064316,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mel and michelle</name>
+        <description>The Old North restaurants (http://www.cityguide.co.il/tel-aviv-areas/north/the-old-north/dining/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.773411,32.088188,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mezze</name>
+        <description>Rothschild Blvd Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/center/rothschild-blvd/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.776516,32.066376,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dr. Shakshuka</name>
+        <description>Jaffa Restaurants (http://www.cityguide.co.il/tel-aviv-areas/south/jaffa/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.756535,32.054195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zepra</name>
+        <styleUrl>#icon-169-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.793667,32.069618,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yavne Montefiore</name>
+        <description>Rothschild Blvd Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/center/rothschild-blvd/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.773182,32.06559,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Turkiz</name>
+        <styleUrl>#icon-169-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.791283,32.137901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thai House</name>
+        <styleUrl>#icon-169-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.768307,32.077667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Suzanna</name>
+        <description>Neve Tzedek Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/south/neve-tsedek/dining-cafe-and-nightlife/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.763596,32.061325,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Social Club</name>
+        <description>Rothschild Blvd Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/center/rothschild-blvd/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.774799,32.06419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Segev expres</name>
+        <styleUrl>#icon-169-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.841759,32.110455,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rothschilds Kitchen</name>
+        <description>Rothschild Blvd Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/center/rothschild-blvd/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.777107,32.065914,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Raphael</name>
+        <styleUrl>#icon-169-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.767429,32.077805,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Poyke</name>
+        <description>Florentin Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/south/florentin/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.760517,32.055824,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Orna and Ella</name>
+        <description>Carmel Market Restaurants (http://www.cityguide.co.il/tel-aviv-areas/center/carmel-market-area/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.774704,32.068954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NG Meat Bar</name>
+        <description>Neve Tzedek Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/south/neve-tsedek/dining-cafe-and-nightlife/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.768345,32.063267,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mul Yam</name>
+        <description>Tel Aviv Port restaurants  (http://www.cityguide.co.il/tel-aviv-areas/west/the-port/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.773029,32.095478,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moadon haktzinim</name>
+        <styleUrl>#icon-169-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.787174,32.070339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MeatBar</name>
+        <description>Dizengoff Square Restaurants (http://www.cityguide.co.il/tel-aviv-areas/center/dizengoff-square-area/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.780083,32.079227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Joz V Loz</name>
+        <styleUrl>#icon-169-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.774113,32.062237,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cucina tamar</name>
+        <styleUrl>#icon-169-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7827,32.060616,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hotel Montefiore</name>
+        <description>Rothschild Blvd Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/center/rothschild-blvd/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.789925,32.070194,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Basta</name>
+        <description>Carmel Market Restaurants (http://www.cityguide.co.il/tel-aviv-areas/center/carmel-market-area/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.76936,32.068588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gilis</name>
+        <description>Tel Aviv Port restaurants  (http://www.cityguide.co.il/tel-aviv-areas/west/the-port/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.774277,32.098534,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coffe Bar</name>
+        <description><![CDATA[Yad Harutsim 13<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.783295,32.061852,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carmella Bistro</name>
+        <description>Carmel Market Restaurants (http://www.cityguide.co.il/tel-aviv-areas/center/carmel-market-area/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.76923,32.067673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Italya caffe</name>
+        <styleUrl>#icon-169-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.794209,32.066845,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Benedict boulevard</name>
+        <description>Rothschild Blvd Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/center/rothschild-blvd/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.772808,32.063591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Banedikt</name>
+        <description>The Old North restaurants (http://www.cityguide.co.il/tel-aviv-areas/north/the-old-north/dining/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.773834,32.089626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barbunia</name>
+        <description>The Old North restaurants (http://www.cityguide.co.il/tel-aviv-areas/north/the-old-north/dining/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.773613,32.088879,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Agadir Bar Burger</name>
+        <description>Carmel Market Restaurants (http://www.cityguide.co.il/tel-aviv-areas/center/carmel-market-area/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.770424,32.069752,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Agadir embassy</name>
+        <description>Dizengoff Square Restaurants (http://www.cityguide.co.il/tel-aviv-areas/center/dizengoff-square-area/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.771923,32.083839,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yulia</name>
+        <description>Tel Aviv Port restaurants  (http://www.cityguide.co.il/tel-aviv-areas/west/the-port/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.772484,32.095692,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yakimono</name>
+        <description>Rothschild Blvd Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/center/rothschild-blvd/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.771545,32.063248,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Toto</name>
+        <styleUrl>#icon-169-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.787251,32.078316,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tapeo</name>
+        <styleUrl>#icon-169-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.784531,32.070358,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sushi Samba</name>
+        <styleUrl>#icon-169-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.840515,32.109543,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shila</name>
+        <description>The Old North restaurants (http://www.cityguide.co.il/tel-aviv-areas/north/the-old-north/dining/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.773449,32.088158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seatara</name>
+        <styleUrl>#icon-169-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.791374,32.138126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RonniMoti</name>
+        <styleUrl>#icon-169-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.838795,32.111538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rak Basar</name>
+        <styleUrl>#icon-169-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.836334,32.109119,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Onami</name>
+        <styleUrl>#icon-169-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.784668,32.070354,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nanuchka</name>
+        <description>Rothschild Blvd Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/center/rothschild-blvd/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.770748,32.06221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moses salon</name>
+        <description>Rothschild Blvd Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/center/rothschild-blvd/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.773624,32.063835,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Miznon</name>
+        <styleUrl>#icon-169-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.781677,32.073704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mercado</name>
+        <styleUrl>#icon-169-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.791027,32.074371,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mantaray</name>
+        <description>Tel Aviv Beach restaurants  (http://www.cityguide.co.il/tel-aviv-areas/west/tel-aviv-beaches/dining/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.760349,32.062054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Herbert samuel</name>
+        <description>Tel Aviv Beach restaurants  (http://www.cityguide.co.il/tel-aviv-areas/west/tel-aviv-beaches/dining/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.762218,32.064102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Guche</name>
+        <description>Dizengoff Square Restaurants (http://www.cityguide.co.il/tel-aviv-areas/center/dizengoff-square-area/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.7743,32.084496,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Edna</name>
+        <description>The Old North restaurants (http://www.cityguide.co.il/tel-aviv-areas/north/the-old-north/dining/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.778145,32.094997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cordelia</name>
+        <description>Jaffa Restaurants (http://www.cityguide.co.il/tel-aviv-areas/south/jaffa/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.754139,32.053375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rak basar</name>
+        <description>Florentin Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/south/florentin/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.763973,32.054653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Charcuterie</name>
+        <description>Jaffa Restaurants (http://www.cityguide.co.il/tel-aviv-areas/south/jaffa/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.755676,32.053009,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cantina</name>
+        <description>Rothschild Blvd Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/center/rothschild-blvd/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.776981,32.065777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brasserie</name>
+        <description>Dizengoff Square Restaurants (http://www.cityguide.co.il/tel-aviv-areas/center/dizengoff-square-area/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.78138,32.080441,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Amore Mio</name>
+        <description>The Old North restaurants (http://www.cityguide.co.il/tel-aviv-areas/north/the-old-north/dining/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.781506,32.083664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Adora</name>
+        <description>The Old North restaurants (http://www.cityguide.co.il/tel-aviv-areas/north/the-old-north/dining/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.774578,32.091995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yoezer wine bar</name>
+        <description>Jaffa Restaurants (http://www.cityguide.co.il/tel-aviv-areas/south/jaffa/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.756641,32.055054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vicky Cristina</name>
+        <description>Tel Aviv Beach restaurants  (http://www.cityguide.co.il/tel-aviv-areas/west/tel-aviv-beaches/dining/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.761887,32.06329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tony Vespa</name>
+        <description>The Old North restaurants (http://www.cityguide.co.il/tel-aviv-areas/north/the-old-north/dining/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.776421,32.09486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Ahad Ha'am Tapas]]></name>
+        <description>Rothschild Blvd Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/center/rothschild-blvd/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.773277,32.064442,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stefan Braun</name>
+        <description>Rothschild Blvd Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/center/rothschild-blvd/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.772598,32.06451,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shakuf</name>
+        <description>Jaffa Restaurants (http://www.cityguide.co.il/tel-aviv-areas/south/jaffa/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.758461,32.051277,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pronto</name>
+        <description>Rothschild Blvd Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/center/rothschild-blvd/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.769859,32.063335,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pasta Mia</name>
+        <description>Rothschild Blvd Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/center/rothschild-blvd/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.78133,32.06731,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Noa Bistro</name>
+        <description>Jaffa Restaurants (http://www.cityguide.co.il/tel-aviv-areas/south/jaffa/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.754391,32.054035,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nana</name>
+        <description>Neve Tzedek Restaurants  (http://www.cityguide.co.il/tel-aviv-areas/south/neve-tsedek/dining-cafe-and-nightlife/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.768295,32.063259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moon</name>
+        <description>Dizengoff Square Restaurants (http://www.cityguide.co.il/tel-aviv-areas/center/dizengoff-square-area/dining-and-cafe/)</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            34.772045,32.07571,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ben Zion House</name>
+        <description><![CDATA[Ahuzat Bayit<br>Hertsel 3<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.769901,32.063343,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yosef Eliyahu Chelouche House</name>
+        <description><![CDATA[Ahuzat Bayit<br>Hertsel 5<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.769943,32.063148,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yehiel Yehieli House</name>
+        <description><![CDATA[Ahuzat Bayit<br>Hertsel 9<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.770096,32.062496,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Avraham Suskin House</name>
+        <description><![CDATA[Ahuzat Bayit<br>Hertsel 24<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.770412,32.06078,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mani House</name>
+        <description><![CDATA[Ahuzat Bayit<br>Yehuda Halevi 36<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.771606,32.061649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pensaks Passage</name>
+        <description><![CDATA[Ahuzat Bayit<br>Hertsel 16<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.770195,32.061829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Akiva Aryeh Weiss House</name>
+        <description><![CDATA[Ahuzat Bayit<br>Hertsel 2<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.769817,32.06353,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palatin Hotel</name>
+        <description><![CDATA[Nahalat Binyamin 50<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.771503,32.063667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nordau Hotel</name>
+        <description><![CDATA[Nahalat Binyamin 27<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.770332,32.066628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rosenberg House</name>
+        <description><![CDATA[Nahalat Binyamin 16<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.770081,32.06781,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shmuel Levy House</name>
+        <description><![CDATA[Nahalat Binyamin 13<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.770069,32.068142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palm (Dekel) House</name>
+        <description><![CDATA[Nahalat Binyamin 8<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.770035,32.068954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Great Synagogue</name>
+        <description><![CDATA[Allenby 110<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.772556,32.064499,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Twin House</name>
+        <description><![CDATA[Mazeh 7-9<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.772411,32.067234,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ein Gedi Hospital</name>
+        <description><![CDATA[Mazeh 10<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.772877,32.067249,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Ahad Ha'Am School]]></name>
+        <description><![CDATA[Ahad Ha'Am 37<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.775116,32.064957,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pagoda House</name>
+        <description><![CDATA[King Albert Square<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.774445,32.065937,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ishmailof hotel</name>
+        <description><![CDATA[Montefiore 32<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.772938,32.065517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brown House</name>
+        <description><![CDATA[Ahad Ha'Am 49<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.776348,32.06612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golomb House</name>
+        <description><![CDATA[Sderot Rothschild 23<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.771976,32.063347,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lederberg House</name>
+        <description><![CDATA[Sderot Rothschild 29<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.772808,32.063591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lederberg House</name>
+        <description><![CDATA[Sderot Rothschild 29<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.772808,32.063591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Levine House</name>
+        <description><![CDATA[Sderot Rothschild 46<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.774624,32.063854,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Engel House</name>
+        <description><![CDATA[Sderot Rothschild 84<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.777466,32.066017,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Berlin House</name>
+        <description><![CDATA[Sderot Rothschild 83<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.777477,32.066761,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Milner House</name>
+        <description><![CDATA[Sderot Rothschild 100<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.778099,32.067703,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rubinsky House</name>
+        <description><![CDATA[65 Sheinkin St.corner 1 HaGilboa St.<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.778748,32.068146,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>City Hall - Bialik Square</name>
+        <description><![CDATA[27 Bialik St.<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.770969,32.073296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ben Nahum Hotel</name>
+        <description><![CDATA[Allenby 118<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.77306,32.063297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moshav Zekenim Synagogue</name>
+        <description><![CDATA[Allenby 89<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.772053,32.065754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kroskal House</name>
+        <description><![CDATA[Hess 21<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.770023,32.07349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trade School</name>
+        <description><![CDATA[Ge'ula 30<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.768093,32.07151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wilson House</name>
+        <description><![CDATA[Kalischer 9<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.768158,32.066467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shapira House</name>
+        <description><![CDATA[HaTavor 34<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.768429,32.066811,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Magidovitch House</name>
+        <description><![CDATA[Mohilever 23<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.768417,32.065765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bialik House</name>
+        <description><![CDATA[Bialik 22<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.770809,32.072952,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rozensor House</name>
+        <description><![CDATA[Ya'el 5<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.776508,32.078354,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Donkelbaum House</name>
+        <description><![CDATA[Ya'el 3<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.776131,32.07843,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lustig and Rosenthal House</name>
+        <description><![CDATA[Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.772274,32.078678,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HaOhel Theater</name>
+        <description><![CDATA[Beilinson 6<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.773048,32.077732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thermometer House</name>
+        <description><![CDATA[Frug 5<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.773125,32.079205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rubin and Shafir House</name>
+        <description><![CDATA[Hovevei Tsiyon 42-44<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.770737,32.07724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chen Cinema</name>
+        <description><![CDATA[Ben Ami 16<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.773655,32.078186,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Esther Cinema</name>
+        <description><![CDATA[Zamenhof 1<br>Tel Aviv-Yafo, Israel<br>Tel Aviv Architecture (http://www.cityguide.co.il/about-tel-aviv/tel-aviv-architecture/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.774841,32.077885,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Reines 20</name>
+        <description>Tel Aviv-Yafo, Israel</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            34.775143,32.079773,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Placemark 23</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.777802,32.065975,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Adiv Hotel</name>
+        <description><![CDATA[Adiv Hotel (http://www.cityguide.co.il/tel-aviv-hotels/adiv-hotel/)<br>5 Mendele Mocher Sfarim st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.768707,32.079247,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alexander Suites Hotel</name>
+        <description><![CDATA[Alexander Suites Hotel (http://www.cityguide.co.il/tel-aviv-hotels/alexander-suites-hotel/)<br>3 Havakuk st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.772587,32.093491,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Abratel Suites Hotel</name>
+        <description><![CDATA[Abratel Suites Hotel (http://www.cityguide.co.il/tel-aviv-hotels/abratel-suites-hotel/)<br>3 Geula st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.764965,32.072449,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Herods Hotel</name>
+        <description><![CDATA[Herods Hotel (http://www.cityguide.co.il/tel-aviv-hotels/herods-hotel/)<br>155 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.769241,32.083942,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arlozorov Suites Hotel</name>
+        <description><![CDATA[Arlozorov Suites Hotel (http://www.cityguide.co.il/tel-aviv-hotels/arlozorov-suite/)<br>23 Arlozorov st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.775288,32.086842,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dizengoff Beach Apartments</name>
+        <description><![CDATA[Dizengoff Beach Apartments (http://www.cityguide.co.il/tel-aviv-hotels/dizengoff-beach-apartment/)<br>283 Dizengoff st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.776165,32.095619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shalom Hotel</name>
+        <description><![CDATA[Shalom Hotel (http://www.cityguide.co.il/tel-aviv-hotels/shalom-hotel/)<br>216 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.772293,32.089218,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ben Yehuda Apartments</name>
+        <styleUrl>#icon-61-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.772717,32.085865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sheraton Tel Aviv Hotel</name>
+        <description><![CDATA[Sheraton Tel Aviv Hotel<br>115 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.768108,32.081726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hilton Tel Aviv</name>
+        <description><![CDATA[Hilton Tel Aviv (http://www.cityguide.co.il/tel-aviv-hotels/hilton-tel-aviv/)<br>Independence Park<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.770752,32.089348,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grand Beach hotel</name>
+        <description><![CDATA[Grand Beach hotel (http://www.cityguide.co.il/tel-aviv-hotels/grand-beach-hotel/)<br>250 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.773457,32.092392,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gordon Inn</name>
+        <description><![CDATA[Gordon Inn (http://www.cityguide.co.il/tel-aviv-hotels/gordon-inn/)<br>17 Gordon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.771309,32.082333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sun City Hotel</name>
+        <description><![CDATA[Sun City Hotel (http://www.cityguide.co.il/tel-aviv-hotels/sun-city-hotel/)<br>41 Yona Hanavi st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.768993,32.072392,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bell Hotel</name>
+        <description><![CDATA[Bell Hotel (http://www.cityguide.co.il/tel-aviv-hotels/bell-hotel/)<br>50 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.766354,32.073254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Maxim Hotel</name>
+        <description><![CDATA[Maxim Hotel (http://www.cityguide.co.il/tel-aviv-hotels/maxim-hotel/)<br>86 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.767521,32.077534,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Art+ Hotel</name>
+        <description><![CDATA[Artplus Hotel (http://www.cityguide.co.il/tel-aviv-hotels/artplus-hotel/)<br>35 Ben Yehuda st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.768246,32.077206,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leonardo Hotel Basel</name>
+        <description><![CDATA[Leonardo Hotel Basel (http://www.cityguide.co.il/tel-aviv-hotels/leonardo-basel/)<br>156 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.769833,32.084297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Melody Hotel</name>
+        <description><![CDATA[Melody Hotel (http://www.cityguide.co.il/tel-aviv-hotels/melody-hotel/)<br>220 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.772682,32.0896,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tal Hotel</name>
+        <description><![CDATA[Tal Hotel (http://www.cityguide.co.il/tel-aviv-hotels/tal-hotel/)<br>287 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.773499,32.094185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Center Hotel</name>
+        <description><![CDATA[Center Hotel (http://www.cityguide.co.il/tel-aviv-hotels/center-chic-hotel/)<br>2 Zamenhoff st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.774574,32.077633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cinema Hotel</name>
+        <description><![CDATA[Cinema Hotel (http://www.cityguide.co.il/tel-aviv-hotels/cinema-hotel/)<br>1 Zamenhoff st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.774746,32.078094,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dan Hotel</name>
+        <description><![CDATA[Dan Hotel (http://www.cityguide.co.il/tel-aviv-hotels/dan-hotel/)<br>99 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.767879,32.07967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Renaissance Hotel</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/MpWvsqCEu0jLghalTbRXsBGTn1FdFl_i9KpRtr8pdVxmhMD5sbe1-e1SsDs4Z9PskhhbV3D30WbtNtutHU-HYnwnExUQlJ_RmkaLdMCNmNkstUA8WvA9Y90p0jLmCMhASA" height="200" width="auto" /><br><br>Renaissance Hotel (http://www.cityguide.co.il/tel-aviv-hotels/renaissance-hotel/)<br>121 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/MpWvsqCEu0jLghalTbRXsBGTn1FdFl_i9KpRtr8pdVxmhMD5sbe1-e1SsDs4Z9PskhhbV3D30WbtNtutHU-HYnwnExUQlJ_RmkaLdMCNmNkstUA8WvA9Y90p0jLmCMhASA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            34.768551,32.083038,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carlton Hotel</name>
+        <description><![CDATA[Carlton Hotel (http://www.cityguide.co.il/tel-aviv-hotels/carlton-tel-aviv/)<br>10 Eliezer Peri st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.76952,32.086452,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dan Panorama Hotel</name>
+        <description><![CDATA[Dan Panorama (http://www.cityguide.co.il/tel-aviv-hotels/dan-panorama/)<br>10 Koifman st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.762962,32.064911,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crowne Plaza</name>
+        <description><![CDATA[Crowne Plaza (http://www.cityguide.co.il/tel-aviv-hotels/crowne-plaza/)<br>145 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.765686,32.073559,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Isrotel Tower Hotel</name>
+        <description><![CDATA[Isrotel Tower (http://www.cityguide.co.il/tel-aviv-hotels/isrotel-tower/)<br>78 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.767174,32.076752,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Park Plaza Orchid Hotel</name>
+        <description><![CDATA[Park Plaza Orchid Hotel (http://www.cityguide.co.il/tel-aviv-hotels/park-plaza-orchid/)<br>79 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.766869,32.077366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>David InterContinental</name>
+        <description><![CDATA[David InterContinental (http://www.cityguide.co.il/tel-aviv-hotels/david-intercontinental/)<br>12 Koifman st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.76281,32.065567,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golden Beach Hotel</name>
+        <description><![CDATA[Golden Beach Hotel (http://www.cityguide.co.il/tel-aviv-hotels/golden-beach-hotel/)<br>56 Herbert Samuel st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.76495,32.073231,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Deborah Hotel</name>
+        <description><![CDATA[Deborah Hotel (http://www.cityguide.co.il/tel-aviv-hotels/deborah-hotel/)<br>87 Ben Yehuda st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.771202,32.082542,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hotel De La Mer</name>
+        <description><![CDATA[Hotel De La Mer (http://www.cityguide.co.il/tel-aviv-hotels/hotel-de-la-mer/)<br>2 Nes Tziona st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.766487,32.075012,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gordon Hotel</name>
+        <description><![CDATA[Gordon Hotel (http://www.cityguide.co.il/tel-aviv-hotels/gordon-hotel/)<br>2 Gordon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.768856,32.082684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Metropolitan Hotel</name>
+        <description><![CDATA[Metropolitan Hotel (http://www.cityguide.co.il/tel-aviv-hotels/metropolitan-hotel/)<br>11 Trumpeldor st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.767826,32.075447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Best Western Regency Suites Hotel</name>
+        <description><![CDATA[Best Western Regency Suites Hotel (http://www.cityguide.co.il/tel-aviv-hotels/best-western-regency-suites/)<br>99 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.767879,32.07967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dizengoff Beach Apartment</name>
+        <description><![CDATA[Dizengoff Beach Apartment (http://www.cityguide.co.il/tel-aviv-hotels/dizengoff-beach-apartment/)<br>283 Dizengoff st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.776165,32.095619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Galileo Hotel</name>
+        <description><![CDATA[Galileo Hotel (http://www.cityguide.co.il/tel-aviv-hotels/galileo-hotel/)<br>8 Hillel HaZaken st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.769436,32.070553,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gilgal Hotel</name>
+        <description><![CDATA[Gilgal Hotel (http://www.cityguide.co.il/tel-aviv-hotels/gilgal-hotel/)<br>7 Nes Ziona st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.767227,32.074726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Imperial Hotel</name>
+        <description><![CDATA[Imperial hotel (http://www.cityguide.co.il/tel-aviv-hotels/imperial-hotel/)<br>66 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.766743,32.075756,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dizengoff Suites Hotel</name>
+        <description><![CDATA[Dizengoff Suites (http://www.cityguide.co.il/tel-aviv-hotels/dizengoff-suites/)<br>39 Gordon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.773716,32.08189,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vital Hotel</name>
+        <description><![CDATA[Vital Hotel (http://www.cityguide.co.il/tel-aviv-hotels/vital-hotel/)<br>14 Weizmann st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.789524,32.081696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sun Aviv Hotel</name>
+        <description><![CDATA[Sun Aviv Hotel (http://www.cityguide.co.il/tel-aviv-hotels/sun-aviv-hotel/)<br>9 Montefiore st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.769924,32.064754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sun City Hotel</name>
+        <description><![CDATA[Sun City Hotel (http://www.cityguide.co.il/tel-aviv-hotels/sun-city-hotel/)<br>41 Yona Hanavi st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.768993,32.072392,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sea Side Hotel</name>
+        <description><![CDATA[Sea Side Hotel (http://www.cityguide.co.il/tel-aviv-hotels/sea-side-hotel/)<br>20 Trumpeldor st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.768261,32.075367,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prima Hotel</name>
+        <description><![CDATA[Prima Hotel (http://www.cityguide.co.il/tel-aviv-hotels/prima-tel-aviv/)<br>105 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.768269,32.080093,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crowne Plaza Hotel City Center</name>
+        <description><![CDATA[Crowne Plaza Hotel City Center (http://www.cityguide.co.il/tel-aviv-hotels/best-western-regency-suites/)<br>136 Menachem Begin Rd.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.791424,32.074196,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Varsano Hotel</name>
+        <description><![CDATA[The Varsano Hotel (http://www.cityguide.co.il/tel-aviv-hotels/versano-hotel/)<br>16 Hevrat Shas st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.763916,32.061516,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brown Hotel</name>
+        <description><![CDATA[Brown Hotel (http://www.cityguide.co.il/tel-aviv-hotels/brown-hotel/)<br>25 Kalisher st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.769905,32.065315,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marina Tel Aviv</name>
+        <description><![CDATA[Marina Tel Aviv (http://www.cityguide.co.il/tel-aviv-hotels/marina-tel-aviv/)<br>167 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.769489,32.086048,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olympia Hotel</name>
+        <description><![CDATA[Olympia Hotel (http://www.cityguide.co.il/tel-aviv-hotels/olympia-hotel/)<br>164 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.769859,32.08493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Port Hotel</name>
+        <description><![CDATA[Port Hotel (http://www.cityguide.co.il/tel-aviv-hotels/port-hotel/)<br>4 Yirmiyahu st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.774422,32.095264,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Miguel Hotel</name>
+        <description><![CDATA[Miguel Hotel (http://www.cityguide.co.il/tel-aviv-hotels/miguel-hotel/)<br>88 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.767475,32.077793,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Miami Hotel</name>
+        <styleUrl>#icon-61-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.765823,32.073517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Adiv Hotel</name>
+        <description><![CDATA[Adiv Hotel (http://www.cityguide.co.il/tel-aviv-hotels/adiv-hotel/)<br>5 Mendele Mocher Sfarim st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.768707,32.079247,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alexander Suites Hotel</name>
+        <description><![CDATA[Alexander Suites Hotel (http://www.cityguide.co.il/tel-aviv-hotels/alexander-suites-hotel/)<br>3 Havakuk st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.772587,32.093491,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Abratel Suites Hotel</name>
+        <description><![CDATA[Abratel Suites Hotel (http://www.cityguide.co.il/tel-aviv-hotels/abratel-suites-hotel/)<br>3 Geula st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.764965,32.072449,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Herods Hotel</name>
+        <description><![CDATA[Herods Hotel (http://www.cityguide.co.il/tel-aviv-hotels/herods-hotel/)<br>155 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.769241,32.083942,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arlozorov Suites Hotel</name>
+        <description><![CDATA[Arlozorov Suites Hotel (http://www.cityguide.co.il/tel-aviv-hotels/arlozorov-suite/)<br>23 Arlozorov st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.775288,32.086842,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dizengoff Beach Apartments</name>
+        <description><![CDATA[Dizengoff Beach Apartments (http://www.cityguide.co.il/tel-aviv-hotels/dizengoff-beach-apartment/)<br>283 Dizengoff st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.776165,32.095619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shalom Hotel</name>
+        <description><![CDATA[Shalom Hotel (http://www.cityguide.co.il/tel-aviv-hotels/shalom-hotel/)<br>216 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.772293,32.089218,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ben Yehuda Apartments</name>
+        <styleUrl>#icon-61-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.772717,32.085865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sheraton Tel Aviv Hotel</name>
+        <description><![CDATA[Sheraton Tel Aviv Hotel<br>115 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.768108,32.081726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hilton Tel Aviv</name>
+        <description><![CDATA[Hilton Tel Aviv (http://www.cityguide.co.il/tel-aviv-hotels/hilton-tel-aviv/)<br>Independence Park<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.770752,32.089348,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grand Beach hotel</name>
+        <description><![CDATA[Grand Beach hotel (http://www.cityguide.co.il/tel-aviv-hotels/grand-beach-hotel/)<br>250 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.773457,32.092392,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gordon Inn</name>
+        <description><![CDATA[Gordon Inn (http://www.cityguide.co.il/tel-aviv-hotels/gordon-inn/)<br>17 Gordon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.771309,32.082333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sun City Hotel</name>
+        <description><![CDATA[Sun City Hotel (http://www.cityguide.co.il/tel-aviv-hotels/sun-city-hotel/)<br>41 Yona Hanavi st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.768993,32.072392,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bell Hotel</name>
+        <description><![CDATA[Bell Hotel (http://www.cityguide.co.il/tel-aviv-hotels/bell-hotel/)<br>50 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.766354,32.073254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Maxim Hotel</name>
+        <description><![CDATA[Maxim Hotel (http://www.cityguide.co.il/tel-aviv-hotels/maxim-hotel/)<br>86 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.767521,32.077534,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Art+ Hotel</name>
+        <description><![CDATA[Artplus Hotel (http://www.cityguide.co.il/tel-aviv-hotels/artplus-hotel/)<br>35 Ben Yehuda st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.768246,32.077206,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leonardo Hotel Basel</name>
+        <description><![CDATA[Leonardo Hotel Basel (http://www.cityguide.co.il/tel-aviv-hotels/leonardo-basel/)<br>156 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.769833,32.084297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Melody Hotel</name>
+        <description><![CDATA[Melody Hotel (http://www.cityguide.co.il/tel-aviv-hotels/melody-hotel/)<br>220 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.772682,32.0896,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tal Hotel</name>
+        <description><![CDATA[Tal Hotel (http://www.cityguide.co.il/tel-aviv-hotels/tal-hotel/)<br>287 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.773499,32.094185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Center Hotel</name>
+        <description><![CDATA[Center Hotel (http://www.cityguide.co.il/tel-aviv-hotels/center-chic-hotel/)<br>2 Zamenhoff st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.774574,32.077633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cinema Hotel</name>
+        <description><![CDATA[Cinema Hotel (http://www.cityguide.co.il/tel-aviv-hotels/cinema-hotel/)<br>1 Zamenhoff st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.774746,32.078094,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dan Hotel</name>
+        <description><![CDATA[Dan Hotel (http://www.cityguide.co.il/tel-aviv-hotels/dan-hotel/)<br>99 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.767879,32.07967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Renaissance Hotel</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/MpWvsqCEu0jLghalTbRXsBGTn1FdFl_i9KpRtr8pdVxmhMD5sbe1-e1SsDs4Z9PskhhbV3D30WbtNtutHU-HYnwnExUQlJ_RmkaLdMCNmNkstUA8WvA9Y90p0jLmCMhASA" height="200" width="auto" /><br><br>Renaissance Hotel (http://www.cityguide.co.il/tel-aviv-hotels/renaissance-hotel/)<br>121 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/MpWvsqCEu0jLghalTbRXsBGTn1FdFl_i9KpRtr8pdVxmhMD5sbe1-e1SsDs4Z9PskhhbV3D30WbtNtutHU-HYnwnExUQlJ_RmkaLdMCNmNkstUA8WvA9Y90p0jLmCMhASA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            34.768551,32.083038,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carlton Hotel</name>
+        <description><![CDATA[Carlton Hotel (http://www.cityguide.co.il/tel-aviv-hotels/carlton-tel-aviv/)<br>10 Eliezer Peri st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.76952,32.086452,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dan Panorama Hotel</name>
+        <description><![CDATA[Dan Panorama (http://www.cityguide.co.il/tel-aviv-hotels/dan-panorama/)<br>10 Koifman st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.762962,32.064911,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crowne Plaza</name>
+        <description><![CDATA[Crowne Plaza (http://www.cityguide.co.il/tel-aviv-hotels/crowne-plaza/)<br>145 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.765686,32.073559,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Isrotel Tower Hotel</name>
+        <description><![CDATA[Isrotel Tower (http://www.cityguide.co.il/tel-aviv-hotels/isrotel-tower/)<br>78 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.767174,32.076752,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Park Plaza Orchid Hotel</name>
+        <description><![CDATA[Park Plaza Orchid Hotel (http://www.cityguide.co.il/tel-aviv-hotels/park-plaza-orchid/)<br>79 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.766869,32.077366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>David InterContinental</name>
+        <description><![CDATA[David InterContinental (http://www.cityguide.co.il/tel-aviv-hotels/david-intercontinental/)<br>12 Koifman st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.76281,32.065567,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golden Beach Hotel</name>
+        <description><![CDATA[Golden Beach Hotel (http://www.cityguide.co.il/tel-aviv-hotels/golden-beach-hotel/)<br>56 Herbert Samuel st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.76495,32.073231,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Deborah Hotel</name>
+        <description><![CDATA[Deborah Hotel (http://www.cityguide.co.il/tel-aviv-hotels/deborah-hotel/)<br>87 Ben Yehuda st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.771202,32.082542,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hotel De La Mer</name>
+        <description><![CDATA[Hotel De La Mer (http://www.cityguide.co.il/tel-aviv-hotels/hotel-de-la-mer/)<br>2 Nes Tziona st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.766487,32.075012,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gordon Hotel</name>
+        <description><![CDATA[Gordon Hotel (http://www.cityguide.co.il/tel-aviv-hotels/gordon-hotel/)<br>2 Gordon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.768856,32.082684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Metropolitan Hotel</name>
+        <description><![CDATA[Metropolitan Hotel (http://www.cityguide.co.il/tel-aviv-hotels/metropolitan-hotel/)<br>11 Trumpeldor st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.767826,32.075447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Best Western Regency Suites Hotel</name>
+        <description><![CDATA[Best Western Regency Suites Hotel (http://www.cityguide.co.il/tel-aviv-hotels/best-western-regency-suites/)<br>99 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.767879,32.07967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dizengoff Beach Apartment</name>
+        <description><![CDATA[Dizengoff Beach Apartment (http://www.cityguide.co.il/tel-aviv-hotels/dizengoff-beach-apartment/)<br>283 Dizengoff st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.776165,32.095619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Galileo Hotel</name>
+        <description><![CDATA[Galileo Hotel (http://www.cityguide.co.il/tel-aviv-hotels/galileo-hotel/)<br>8 Hillel HaZaken st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.769436,32.070553,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gilgal Hotel</name>
+        <description><![CDATA[Gilgal Hotel (http://www.cityguide.co.il/tel-aviv-hotels/gilgal-hotel/)<br>7 Nes Ziona st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.767227,32.074726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Imperial Hotel</name>
+        <description><![CDATA[Imperial hotel (http://www.cityguide.co.il/tel-aviv-hotels/imperial-hotel/)<br>66 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.766743,32.075756,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dizengoff Suites Hotel</name>
+        <description><![CDATA[Dizengoff Suites (http://www.cityguide.co.il/tel-aviv-hotels/dizengoff-suites/)<br>39 Gordon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.773716,32.08189,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vital Hotel</name>
+        <description><![CDATA[Vital Hotel (http://www.cityguide.co.il/tel-aviv-hotels/vital-hotel/)<br>14 Weizmann st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.789524,32.081696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sun Aviv Hotel</name>
+        <description><![CDATA[Sun Aviv Hotel (http://www.cityguide.co.il/tel-aviv-hotels/sun-aviv-hotel/)<br>9 Montefiore st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.769924,32.064754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sun City Hotel</name>
+        <description><![CDATA[Sun City Hotel (http://www.cityguide.co.il/tel-aviv-hotels/sun-city-hotel/)<br>41 Yona Hanavi st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.768993,32.072392,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sea Side Hotel</name>
+        <description><![CDATA[Sea Side Hotel (http://www.cityguide.co.il/tel-aviv-hotels/sea-side-hotel/)<br>20 Trumpeldor st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.768261,32.075367,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prima Hotel</name>
+        <description><![CDATA[Prima Hotel (http://www.cityguide.co.il/tel-aviv-hotels/prima-tel-aviv/)<br>105 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.768269,32.080093,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crowne Plaza Hotel City Center</name>
+        <description><![CDATA[Crowne Plaza Hotel City Center (http://www.cityguide.co.il/tel-aviv-hotels/best-western-regency-suites/)<br>136 Menachem Begin Rd.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.791424,32.074196,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Varsano Hotel</name>
+        <description><![CDATA[The Varsano Hotel (http://www.cityguide.co.il/tel-aviv-hotels/versano-hotel/)<br>16 Hevrat Shas st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.763916,32.061516,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brown Hotel</name>
+        <description><![CDATA[Brown Hotel (http://www.cityguide.co.il/tel-aviv-hotels/brown-hotel/)<br>25 Kalisher st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.769905,32.065315,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marina Tel Aviv</name>
+        <description><![CDATA[Marina Tel Aviv (http://www.cityguide.co.il/tel-aviv-hotels/marina-tel-aviv/)<br>167 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.769489,32.086048,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olympia Hotel</name>
+        <description><![CDATA[Olympia Hotel (http://www.cityguide.co.il/tel-aviv-hotels/olympia-hotel/)<br>164 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.769859,32.08493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Port Hotel</name>
+        <description><![CDATA[Port Hotel (http://www.cityguide.co.il/tel-aviv-hotels/port-hotel/)<br>4 Yirmiyahu st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.774422,32.095264,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Miguel Hotel</name>
+        <description><![CDATA[Miguel Hotel (http://www.cityguide.co.il/tel-aviv-hotels/miguel-hotel/)<br>88 Hayarkon st.<br>Tel Aviv-Yafo, Israel]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            34.767475,32.077793,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Miami Hotel</name>
+        <styleUrl>#icon-61-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.765823,32.073517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
